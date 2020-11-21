@@ -11,20 +11,20 @@ public class Loops{
 
          System.out.println("Bucle for");
          for(int i = 0; i < 10; i++){
-            System.out.println("Me llego por el nÃºmero " + i);
+            System.out.println("Me llego por el número " + i);
          }
 
          int contador = 0;
          System.out.println("Bucle while");
          while(contador < 10){
-            System.out.println("Me llego por el nÃºmero " + contador);
+            System.out.println("Me llego por el número " + contador);
             contador++;
          }
 
         contador = 0;
         System.out.println("Bucle do-while");
         do{
-            System.out.println("Me llego por el nÃºmero " + contador);
+            System.out.println("Me llego por el número " + contador);
             contador++;
         }while(contador < 10);
 

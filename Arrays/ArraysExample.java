@@ -3,14 +3,13 @@ public class ArraysExample{
     public static void main(String[] args) {
         
         int myArray[] = new int[5];
-        //Fill array
+        // Fill array
         for(int i = 0; i < myArray.length; i++){
             myArray[i] = i;
         }
-        //Print array
-        //Fill array
+        // Print array
         for(int i = 0; i < myArray.length; i++){
-            System.out.println("Contenido de myArray en posiciÃ³n("+i+"): " + myArray[i]);
+            System.out.println("Contenido de myArray en posición("+i+"): " + myArray[i]);
         }
 
     }
